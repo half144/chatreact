@@ -1,0 +1,58 @@
+.home {
+  color: white;
+  width: 90vw;
+}
+.headerChats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  height: 50px;
+}
+.headerChats img {
+  height: 1.4em;
+}
+.userData {
+  height: 60px;
+  padding-left: 1em;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #131313;
+}
+.userChat {
+  height: 60px;
+  padding-left: 1em;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #131313;
+}
+.userChats {
+  display: flex;
+  flex-direction: column;
+}
+.modal form {
+  display: flex;
+  gap: 4px;
+}
+.modal form input {
+  color: white;
+  padding-left: 1em;
+  border-radius: 5px;
+  height: 40px;
+  background-color: #131313;
+  border: none;
+  outline: none;
+}
+
+#init {
+  background-color: blue;
+  padding: 0;
+  padding: 0.4em 1em;
+}
+
+@media (min-width: 650px) {
+  .home {
+    width: 60vw;
+    max-width: 800px;
+  }
+}

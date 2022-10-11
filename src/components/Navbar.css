@@ -1,0 +1,18 @@
+#nav {
+  height: 5vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#nav button {
+  background-color: blue;
+  border: none;
+  border-radius: 6px;
+  padding: 0 1em;
+  cursor: pointer;
+  color: white;
+  height: 80%;
+}

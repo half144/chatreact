@@ -1,0 +1,20 @@
+#form {
+  width: 100vw;
+}
+
+#inputMessage {
+  background-color: black;
+  width: 100%;
+  border: none;
+  color: white;
+  outline: none;
+  padding-left: 1em;
+  height: 7vh;
+}
+
+@media (min-width: 650px) {
+  #form {
+    width: 50vw;
+    max-width: 800px;
+  }
+}
